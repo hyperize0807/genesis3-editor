@@ -17,7 +17,7 @@ P2_HTML= os.path.join(PROJ, "genesis3part2_editor", "dist", "index.html")
 LOGO1  = os.path.join(ROOT, "assets", "g3p1_logo_crop.png")
 LOGO2  = os.path.join(ROOT, "assets", "g3p2_logo_crop.png")
 OUT    = os.path.join(ROOT, "index.html")
-VERSION= "v1.5.0"
+VERSION= "v1.5.1"
 
 # ── 파트1 적갈색 재테마(임베드 복사본 한정) ──
 P1_ROOT_RED = (":root{--bg:#1a1011;--panel:#241618;--panel2:#30191c;--line:#4a2d30;"
@@ -52,7 +52,7 @@ SHELL = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>창세기전3 세이브 에디터</title>
+<title>창세기전3 파트1/2 통합 세이브 에디터</title>
 <style>
   *{box-sizing:border-box}
   html,body{margin:0;height:100%}
@@ -98,7 +98,7 @@ SHELL = r"""<!DOCTYPE html>
 </head>
 <body>
 <div id="landing">
-  <h1>창세기전3 세이브 에디터</h1>
+  <h1>창세기전3 파트1/2 통합 세이브 에디터</h1>
   <div class="sub">편집할 작품을 선택하세요</div>
   <div class="cards">
     <div class="card p1" data-game="1">
