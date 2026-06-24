@@ -17,7 +17,7 @@ P2_HTML= os.path.join(PROJ, "genesis3part2_editor", "dist", "index.html")
 LOGO1  = os.path.join(ROOT, "assets", "g3p1_logo_crop.png")
 LOGO2  = os.path.join(ROOT, "assets", "g3p2_logo_crop.png")
 OUT    = os.path.join(ROOT, "index.html")
-VERSION= "v1.6.4"
+VERSION= "v1.7.0"
 
 # ── 파트1 적갈색 재테마(임베드 복사본 한정) ──
 P1_ROOT_RED = (":root{--bg:#1a1011;--panel:#241618;--panel2:#30191c;--line:#4a2d30;"
